@@ -1,4 +1,4 @@
-require 'block-is-hash'
+require 'dockerfile-dsl'
 
 block_is_hash [] do
   foo 123

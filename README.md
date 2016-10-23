@@ -1,6 +1,6 @@
-# block-is-hash
+# dockerfile-dsl
 
-[![Build Status](https://travis-ci.org/raviqqe/block-is-hash.svg?branch=master)](https://travis-ci.org/raviqqe/block-is-hash)
+[![Build Status](https://travis-ci.org/raviqqe/dockerfile-dsl.svg?branch=master)](https://travis-ci.org/raviqqe/dockerfile-dsl)
 [![License](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://unlicense.org)
 
 Block is Hash
@@ -8,13 +8,13 @@ Block is Hash
 ## Installation
 
 ```
-$ gem install block-is-hash
+$ gem install dockerfile-dsl
 ```
 
 ## Usage
 
 ```
-require 'block-is-hash'
+require 'dockerfile-dsl'
 
 hash = block_is_hash %i(server) do
   user :www

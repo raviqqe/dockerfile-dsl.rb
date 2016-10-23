@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'block-is-hash'
+require 'dockerfile-dsl'
 
 
 

@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'block-is-hash'
+  s.name        = 'dockerfile-dsl'
   s.version     = '0.0.2'
   s.date        = Date.today.to_s
   s.license     = 'Unlicense'
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.authors     = ['Yota Toyama']
   s.email       = 'raviqqe@gmail.com'
-  s.homepage    = 'https://github.com/raviqqe/block-is-hash'
+  s.homepage    = 'https://github.com/raviqqe/dockerfile-dsl'
 
   s.files       = Dir['lib/**/*']
 end
