@@ -5,5 +5,5 @@ require_relative 'compile'
 
 
 def dockerfile &block
-  compile block_is_array(&block)
+  Dockerfile::from_array block_is_array(&block)
 end
