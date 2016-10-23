@@ -13,26 +13,28 @@ $ gem install dockerfile-dsl
 
 ## Usage
 
-```
+Code:
+
+```ruby
 require 'dockerfile-dsl'
 
-hash = dockerfile %i(server) do
-  user :www
-
-  http do
-    server do
-      listen 80
-      server_name 'foo.com'
-    end
-
-    server do
-      listen 443, :ssl
-      server_name 'bar.com'
-    end
-  end
+file = dockerfile do
+  from :ubuntu
+  run 'sudo apt install nginx'
+  add 'nginx.conf', '/etc/nginx.conf'
+  cmd [:service, :nginx, :start]
 end
 
-p hash
+puts file
+```
+
+Output:
+
+```dockerfile
+FROM ubuntu
+RUN sudo apt install nginx
+ADD nginx.conf /etc/nginx.conf
+CMD ["service", "nginx", "start"]
 ```
 
 For more examples, see [examples](examples) directory.
