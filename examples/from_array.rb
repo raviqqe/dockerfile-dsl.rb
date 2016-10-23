@@ -11,6 +11,6 @@ array = block_is_array do
   cmd ['/bin/sh']
 end
 
-array.insert(1, [:maintainer, 'Me'])
+array.insert 1, [:maintainer, 'Me']
 
 puts Dockerfile.from_array(array)
