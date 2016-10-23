@@ -1,15 +1,15 @@
 Gem::Specification.new do |s|
   s.name        = 'dockerfile-dsl'
-  s.version     = '0.0.2'
+  s.version     = '0.0.1'
   s.date        = Date.today.to_s
   s.license     = 'Unlicense'
 
-  s.summary     = 'Block is Hash'
-  s.description = 'block-to-hash converter'
+  s.summary     = 'Dockerfile DSL'
+  s.description = 'Dockerfile DSL and generator'
 
   s.authors     = ['Yota Toyama']
   s.email       = 'raviqqe@gmail.com'
-  s.homepage    = 'https://github.com/raviqqe/dockerfile-dsl'
+  s.homepage    = 'https://github.com/raviqqe/dockerfile-dsl.rb'
 
   s.files       = Dir['lib/**/*']
 end
