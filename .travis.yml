@@ -5,10 +5,5 @@ language: ruby
 services:
   - docker
 
-addons:
-  apt:
-    packages:
-      - rubygems
-
 script:
   - rake test
