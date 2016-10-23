@@ -1,6 +1,6 @@
 require 'dockerfile-dsl'
 
-block_is_hash [] do
+dockerfile [] do
   foo 123
   foo 123
 end

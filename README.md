@@ -16,7 +16,7 @@ $ gem install dockerfile-dsl
 ```
 require 'dockerfile-dsl'
 
-hash = block_is_hash %i(server) do
+hash = dockerfile %i(server) do
   user :www
 
   http do

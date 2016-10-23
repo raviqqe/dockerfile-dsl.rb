@@ -4,7 +4,7 @@ require 'dockerfile-dsl'
 
 
 
-conf = block_is_hash %i(server load_module) do
+conf = dockerfile %i(server load_module) do
   user :nobody, :nogroup
   worker_processes 1
   events do

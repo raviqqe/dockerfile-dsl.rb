@@ -1,1 +1,1 @@
-require_relative 'dockerfile-dsl/block_is_hash'
+require_relative 'dockerfile-dsl/dockerfile'
