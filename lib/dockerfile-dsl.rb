@@ -1,1 +1,1 @@
-require_relative 'dockerfile-dsl/dockerfile'
+require_relative 'dockerfile-dsl/function'
