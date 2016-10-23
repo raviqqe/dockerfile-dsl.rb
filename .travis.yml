@@ -2,10 +2,12 @@ sudo: required
 
 language: ruby
 
+services:
+  - docker
+
 addons:
   apt:
     packages:
-      - nginx
       - rubygems
 
 script:
