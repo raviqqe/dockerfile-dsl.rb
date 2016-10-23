@@ -1,6 +1,6 @@
 # dockerfile-dsl
 
-[![Build Status](https://travis-ci.org/raviqqe/dockerfile-dsl.svg?branch=master)](https://travis-ci.org/raviqqe/dockerfile-dsl)
+[![Build Status](https://travis-ci.org/raviqqe/dockerfile-dsl.rb.svg?branch=master)](https://travis-ci.org/raviqqe/dockerfile-dsl.rb)
 [![License](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://unlicense.org)
 
 Block is Hash
