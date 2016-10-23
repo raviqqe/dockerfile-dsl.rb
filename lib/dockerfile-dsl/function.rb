@@ -1,7 +1,9 @@
-require_relative 'blockishash'
+require 'block-is-array'
+
+require_relative 'compile'
 
 
 
-def dockerfile repeats, &block
-  BlockIsHash.new(repeats, &block).to_hash
+def dockerfile &block
+  compile block_is_array(&block)
 end
